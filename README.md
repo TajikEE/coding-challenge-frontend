@@ -1,3 +1,13 @@
+# Notes and assumptions
+
+- All the frontend code can be found inside the frontend folder
+- All the backend code can be found inside the server folder
+- Use 'npm run start' to run both the backend and frontend
+- The json-data folder has not been touched and is kept outside the server folder on the assumption that in real scenario if the files are in a different location outside the server directory, it can still be read.
+- Typscript has been used in server side
+- The 'duration' number provided in 'logs.json' has been assumed to be in seconds
+
+
 # Frontend / Javascipt - coding challenge.
 
 Welcome to Legal One coding challenge, through this challenge we get to know you better from the coding side of you. let's start.

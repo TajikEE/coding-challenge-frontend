@@ -93,14 +93,14 @@ export default {
     formatTime: (dateString) => format(new Date(dateString), "HH:MM"),
     formatDate: (dateString) => format(new Date(dateString), "dd/LL/yy"),
 
-    async goToNumberDetails(number) {
+    goToNumberDetails(number) {
       this.$router.push({
         name: "phone-number-details",
         params: { number },
       });
     },
 
-    async goToAgentDetails(agentId) {
+    goToAgentDetails(agentId) {
       this.$router.push({
         name: "agent-details",
         params: { agentId },

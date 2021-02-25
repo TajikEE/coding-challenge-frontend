@@ -1,8 +1,5 @@
 import { mount } from "@vue/test-utils";
-import App from "../src/App.vue";
-
-import { mount } from "@vue/test-utils";
-
+import App from "@/App.vue";
 
 describe("Mounted App", () => {
   const wrapper = mount(App);
@@ -11,3 +8,4 @@ describe("Mounted App", () => {
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
 });
+

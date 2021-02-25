@@ -21,7 +21,6 @@ export default {
 
   computed: {
     options() {
-      console.log(this.chartTitle)
       return {
         title: this.chartTitle,
         colors: ["#f8c91c"],
